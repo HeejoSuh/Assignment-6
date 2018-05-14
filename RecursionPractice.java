@@ -141,10 +141,9 @@ public class RecursionPractice {
 			//		 * * * 
 			//		* * * *
 			
-		   	if (inputNum == 0) {
-		   		 //if input is 0
-		   	} else {
-		   		//---------------------
+		   	if (inputNum != 0) {
+		   		 //if input is not 0
+				//---------------------
 		   		if (currentLine!= inputNum) {
 			   		if (inputNum > currentLine) {
 			   			//decreasing
